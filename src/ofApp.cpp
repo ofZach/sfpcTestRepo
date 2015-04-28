@@ -15,10 +15,10 @@ void ofApp::update(){
 void ofApp::draw(){
 
     ofBackground(0);
-    ofSetColor(ofRandom(0,255), ofRandom (0,255), ofRandom (0,255));
+//    ofSetColor(ofRandom(0,255), ofRandom (0,255), ofRandom (0,255));
     
     for (int i = 0; i < 100; i++){
-        ofLine(0, 3204 + ofRandom(-100,100), ofGetWidth(),
+        ofLine(0, 500 + ofRandom(-100,100), ofGetWidth(),
                500 + ofRandom(-100,100));
         
     }
